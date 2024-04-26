@@ -1,0 +1,55 @@
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ADEFD1FF; /* Background color */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #00203FFF; /* Title color */
+}
+
+textarea {
+  width: calc(100% - 20px);
+  height: 150px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: 2px solid #00203FFF; /* Border color */
+  border-radius: 5px;
+}
+
+button#speak-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #00203FFF; /* Speak button color */
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button#speak-button:hover {
+  background-color: #ADEFD1FF; /* Change to background color on hover */
+  color: #00203FFF; /* Change text color to blue on hover */
+}
+
+select,
+input[type="range"] {
+  background-color: #ffffff;
+  border: 1px solid #00203FFF; /* Border color */
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+select:focus,
+input[type="range"]:focus {
+  outline: none;
+  border-color: #00203FFF; /* Focus border color */
+}
+
